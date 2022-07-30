@@ -139,9 +139,13 @@ add_action( 'widgets_init', 'gymsclub_widgets_init' );
  */
 function gymsclub_scripts() {
 	wp_enqueue_style( 'gymsclub-style', get_stylesheet_uri(), array(), _S_VERSION );
+	wp_enqueue_style( 'customstyle', get_template_directory_uri() . '/css/custom.css' );
+    wp_enqueue_style( 'fontawesomecss', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' );
+
 	wp_style_add_data( 'gymsclub-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'gymsclub-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'scriptjs', get_template_directory_uri() . '/js/script.js', array(), _S_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
