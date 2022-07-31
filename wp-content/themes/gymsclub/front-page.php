@@ -20,6 +20,7 @@ get_header();
         <?php get_template_part('partials/hero-section')?>
         <?php get_template_part('partials/booking-section')?>
         <?php get_template_part('partials/about-section')?>
+        <?php get_template_part('partials/counter-section')?>
 
     </main><!-- #main -->
 
