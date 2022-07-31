@@ -28,7 +28,7 @@
 	<header>
         <div class="content flex_space">
             <div class="logo">
-                <img src="" alt="">
+                <img src="<?php echo get_template_directory_uri();?>/img/logo.png" alt="">
             </div>
             <div class="navlinks">
                 <ul id="menulist">
