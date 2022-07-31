@@ -18,6 +18,7 @@ get_header();
     <main id="primary" class="site-main">
 
         <?php get_template_part('partials/hero-section')?>
+        <?php get_template_part('partials/booking-section')?>
 
     </main><!-- #main -->
 
