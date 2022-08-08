@@ -1,6 +1,6 @@
 <section class="hero">
     <div class="content">
-        <div class="owl-carousel owl-theme">
+        <div class="owl-carousel carousel_se_01_carousel owl-theme">
             <div class="item">
                 <img src="<?php echo get_template_directory_uri()?>/img/slides/slide1.jpg" alt="">
                 <div class="text">

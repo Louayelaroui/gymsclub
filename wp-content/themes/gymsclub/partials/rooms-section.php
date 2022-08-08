@@ -1,90 +1,69 @@
 <section class="rooms">
-    <div class="container top">
-        <div class="heading">
-            <h1>EXPLORE</h1>
-            <h2>Our Rooms</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, inventore.</p>
-        </div>
-        <div class="content mtop">
-            <div class="owl-carousel owl-carousel1 owl-theme">
-                <div class="items">
-                    <div class="image">
-                        <img src="<?php echo get_template_directory_uri()?>/img/rooms/room1.png"                             alt="">
-                    </div>
-                    <div class="text">
-                        <h2>Superior Rooms</h2>
-                        <div class="rate flex">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, ut!</p>
-                        <div class="button flex">
-                            <button class="primary-btn">BOOK NOW</button>
-                            <h3>$250 <span><br> Per Night</span></h3>
-                        </div>
+    <div class="heading">
+        <h1>EXPOLRE</h1>
+        <h2>Our Rooms</h2>
+        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        </p>
+    </div>
+    <div class="content mtop">
+        <div class="owl-carousel carousel_se_02_carousel owl-theme">
+            <div class="item">
+                <img src="<?php echo get_template_directory_uri()?>/img/slides/slide1.jpg" alt="">
+                <div class="text">
+                    <h1>Specnd your holidays</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.                    Aperiam, exercitationem.</p>
+                    <div class="flex">
+                        <button class="primary-btn">
+                            READ MORE
+                        </button>
+                        <button class="secondary">
+                            Contact us
+                        </button>
                     </div>
                 </div>
-                <div class="items">
-                    <div class="image">
-                        <img src="<?php echo get_template_directory_uri()?>/img/rooms/room1.png" alt="">
-                    </div>
-                    <div class="text">
-                        <h2>Superior Rooms</h2>
-                        <div class="rate flex">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, ut!</p>
-                        <div class="button flex">
-                            <button class="primary-btn">BOOK NOW</button>
-                            <h3>$250 <span><br> Per Night</span></h3>
-                        </div>
+            </div>
+            <div class="item">
+                <img src="<?php echo get_template_directory_uri()?>/img/slides/slide2.jpg" alt="">
+                <div class="text">
+                    <h1>Specnd your holidays</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.                    Aperiam, exercitationem.</p>
+                    <div class="flex">
+                        <button class="primary-btn">
+                            READ MORE
+                        </button>
+                        <button class="secondary">
+                            Contact us
+                        </button>
                     </div>
                 </div>
-                <div class="items">
-                    <div class="image">
-                        <img src="<?php echo get_template_directory_uri()?>/img/rooms/room1.png" alt="">
-                    </div>
-                    <div class="text">
-                        <h2>Superior Rooms</h2>
-                        <div class="rate flex">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, ut!</p>
-                        <div class="button flex">
-                            <button class="primary-btn">BOOK NOW</button>
-                            <h3>$250 <span><br> Per Night</span></h3>
-                        </div>
+            </div>
+            <div class="item">
+                <img src="<?php echo get_template_directory_uri()?>/img/slides/slide3.jpg" alt="">
+                <div class="text">
+                    <h1>Specnd your holidays</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.                    Aperiam, exercitationem.</p>
+                    <div class="flex">
+                        <button class="primary-btn">
+                            READ MORE
+                        </button>
+                        <button class="secondary">
+                            Contact us
+                        </button>
                     </div>
                 </div>
-                <div class="items">
-                    <div class="image">
-                        <img src="<?php echo get_template_directory_uri()?>/img/rooms/room1.png" alt="">
-                    </div>
-                    <div class="text">
-                        <h2>Superior Rooms</h2>
-                        <div class="rate flex">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, ut!</p>
-                        <div class="button flex">
-                            <button class="primary-btn">BOOK NOW</button>
-                            <h3>$250 <span><br> Per Night</span></h3>
-                        </div>
+            </div>
+            <div class="item">
+                <img src="<?php echo get_template_directory_uri()?>/img/slides/slide4.jpg" alt="">
+                <div class="text">
+                    <h1>Specnd your holidays</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.                    Aperiam, exercitationem.</p>
+                    <div class="flex">
+                        <button class="primary-btn">
+                            READ MORE
+                        </button>
+                        <button class="secondary">
+                            Contact us
+                        </button>
                     </div>
                 </div>
             </div>

@@ -9,7 +9,7 @@ function menutoggle() {
     }
 }
 
-jQuery('.owl-carousel').owlCarousel({
+jQuery('.carousel_se_01_carousel').owlCarousel({
     loop:true,
     margin:0,
     nav:true,
@@ -27,22 +27,22 @@ jQuery('.owl-carousel').owlCarousel({
         }
     }
 });
-jQuery('.owl-carousel1').owlCarousel({
-    loop: true,
-    margin: 40,
-    nav: true,
-    dots: false,
-    navText: ["<i class = 'fa fa-chevron-left'></i>", "<i class = 'fa fa-chevron-right'></i>"],
-    responsive: {
-        0: {
-            items: 1
+jQuery('.carousel_se_02_carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:true,
+    dots:false,
+    navText:["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+    responsive:{
+        0:{
+            items:1
         },
-        768: {
-            items: 2,
-            margin: 10,
+        768:{
+            items:2
         },
-        1000: {
-            items: 3
+        1000:{
+            items:3
         }
     }
 });
+

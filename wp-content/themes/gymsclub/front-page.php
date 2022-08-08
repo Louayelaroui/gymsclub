@@ -22,6 +22,8 @@ get_header();
         <?php get_template_part('partials/about-section')?>
         <?php get_template_part('partials/counter-section')?>
         <?php get_template_part('partials/rooms-section')?>
+        <?php get_template_part('partials/about-section')?>
+<!--        --><?php //get_template_part('partials/gallery-section')?>
 
     </main><!-- #main -->
 
